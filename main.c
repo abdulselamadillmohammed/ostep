@@ -9,5 +9,6 @@ int main (int argc, char *argv[]){
     assert (fd > -1); // Checking mechanism
     int rc = write(fd, "hello world\n", 13); // Write 13 bytes into the file
     close(fd); // No longer able to write
+    
     return 0;
 }
