@@ -8,5 +8,4 @@ int main()
     signed char s = a + b;
     printf("%d\n", s);
     return 0;
-
 }
