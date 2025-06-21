@@ -4,7 +4,7 @@
 
 int main() {
     struct timeval start, end;
-    int iterations = 1000000;
+    int iterations = 10000;
 
     gettimeofday(&start, NULL);
     for (int i = 0; i < iterations; i++) {
